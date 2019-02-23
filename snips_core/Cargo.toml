@@ -1,0 +1,6 @@
+[package]
+name = "snips_core"
+version = "0.1.0"
+authors = ["plan <plan@yunify.com>"]
+
+[dependencies]

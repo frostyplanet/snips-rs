@@ -1,0 +1,13 @@
+[package]
+name = "snips_derive"
+version = "0.1.0"
+authors = ["plan <plan@yunify.com>"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+#syn = "^0.15"
+syn = { version = "0.15", features = ["extra-traits"] }
+quote = "^0.6"
+snips_core = {version = "0.1", path = "../snips_core"}
